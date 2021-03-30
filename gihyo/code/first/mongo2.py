@@ -26,3 +26,10 @@ def scrape_list_page(response, requests.Response) -> Iterator[str]:
 
 def scrape_detail_page(response: requests.Response) -> dict:
     html = lxml.html.fromstring(response.text)
+    ebook = {
+        'url': response.url,
+        'key': extract_key(response.url)
+
+        'title': html.cssselect('#bookTitle')[0],
+        'price':
+    }
