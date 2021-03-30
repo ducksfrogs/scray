@@ -1,0 +1,78 @@
+cd input/train_normal
+ls -1
+ls -1 |wc -l
+ls |wc -w
+sudo lshw -html >t460_2101.html
+wc -l test
+cd test
+echo 192.168.1.{1..254} |xargs -n1 ping -s1 -c1 -w1 |grep ttl
+h -1000|grep ssh
+prompt -l
+prompt -p
+django-admin startporject hase_proto
+django-admin startproject hase_proto
+python manage.py startapp oil
+rvm install 2.6
+rvm use 2.6
+gem install rails -v 6.0.3
+echo "gem: --no-document" > ~/.gemrc
+rails -v
+rails new toy_app
+rails g scaffold User name:string email:string
+sudo apt install cmdtest
+yarn install
+yarn -v
+sudo apt remove cmdtest
+sudo apt remove yarn
+sudo apt autoremove
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+rail webpacker:install
+sudo apt install yarn
+rails webpacker:install
+rails new sample_app
+cd Documents/rails/
+git merge rails_f
+git checkout -b filling-in-layout
+curl -o app/assets/images/rails.svg -OL https://cdn.learnenough.com/rails.svg
+touch app/assets/stylesheets/custom.scss
+curl -OL https://cdn.learnenough.com/kitten.jpg
+mv kitten.jpg app/assets/images
+rails routes
+yarn add jquery@3.4.1 bootstrap@3.4.1
+python -m django --version
+django-admin startproject mysite
+python manage.py startapp polls
+python manage.py migrate
+python manage.py makemigrations polls
+python manage.py sqlmigrate polls 0001
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+wget -r --no-parent -w 1 -l 1 --restrict-file-names=nocontrol https://gihyo.jp/dp/ 
+cat yakei_kobe.csv|grep -E ',.{5},'
+cat gihyo.jp/dp/index.html | grep -E 'class="paging-number"'
+cd ..
+cat gihyo.jp/dp/index.html | grep -E 'class="paging-number"'
+cat gihyo.jp/dp/index.html | grep -E 'class="paging-number".*-'
+cat gihyo.jp/dp/index.html | grep -E 'class="paging-number".*0'
+cat gihyo.jp/dp/index.html | grep -E 'class="paging-number".*-'
+cat gihyo.jp/dp/index.html | grep -E 'class="paging-number"'
+cat gihyo.jp/dp/index.html | grep -E 'class="paging-number".*1'
+echo abcdefgh | sed -E 's/.*(d.).*/\1'
+echo abcdefgh | sed -E 's/.*(d.).*/\1/'
+echo abcdefgh
+echo abcdefgh | sed -E 's/.*(d.).*/\1/'
+echo abcdefgh | sed -E 's/.*(a.).*/\1/'
+echo abcdefgh | sed -E 's/.*(b.).*/\1/'
+echo abcdefgh | sed -E 's/.*(f.).*/\1/'
+echo '<li class="paging-number">1-30 /2098</li>'
+echo '<li class="paging-number">1-30 /2098</li>' |sed -E 's/<[^>]*//g'
+echo '<li class="paging-number">1-30 /2098</li>' |sed -E 's/<[^>]*>//g'
+echo '<li class="paging-number">1-30 /2098</li>'
+echo '<li class="paging-number">1-30 /2098</li>' |sed -E 's/<[^>]*>//g'
+cat gihyo.jp/dp/index.html |grep -E 'class="paging-number".*-' 
+cat gihyo.jp/dp/index.html |grep -E 'class="paging-number".*-' |sed -E 's@.*/ ([0-9]).*@\1@'
+cat gihyo.jp/dp/index.html |grep -E 'class="paging-number".*-' |sed -E 's@.*/ ([0-9]+).*@\1@'
+cat gihyo.jp/dp/index.html |grep 'itemprop="name"'
+cat gihyo.jp/dp/index.html |grep 'itemprop="name"' |wc -l
